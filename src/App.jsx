@@ -4,6 +4,7 @@ import Flex from "./Flex/Flex";
 import Avatar from "./Avatar/Avatar";
 import Badge from "./Badge/Badge";
 import { Banner } from "./Banner/Banner";
+import Breadcrumbs from "./Breadcrumbs/Breadcrumbs";
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       {/* <Flex /> */}
       {/* <Avatar /> */}
       {/* <Badge /> */}
-      <Banner />
+      {/* <Banner /> */}
+      <Breadcrumbs />
     </div>
   );
 };
