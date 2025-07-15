@@ -69,6 +69,76 @@ const Avatar = () => {
             </div>
           </div>
         </div>
+
+        {/* ------------------Avatar Square Rounded */}
+        {/* main */}
+        <div className="bg-blue-100 p-3 flex justify-center gap-12">
+          {/* One */}
+          <div className="border-[3px] border-blue-500 rounded-lg relative">
+            <img
+              className="h-20 w-20 rounded"
+              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200"
+              alt="userImage1"
+            ></img>
+            <div className="bg-blue-500 h-5 w-10 rounded-full flex justify-center items-center absolute -top-3 -right-5">
+              <p className="text-xs uppercase text-white">New</p>
+            </div>
+          </div>
+          {/* Two */}
+          <div>
+            <img
+              className="h-20 w-20 rounded"
+              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200"
+              alt="userImage1"
+            ></img>
+          </div>
+          {/* Three */}
+          <div>
+            <img
+              className="h-20 w-20 rounded"
+              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200"
+              alt="userImage1"
+            ></img>
+          </div>
+        </div>
+
+        {/* --------------------Avatar Group */}
+        {/* Without flex */}
+        {/* parent */}
+        <div className="bg-green-300 p-3">
+          {/* child  */}
+          <div className="bg-red-300 relative">
+            <img
+              className="h-20 w-20 rounded-full"
+              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200"
+              alt="userImage1"
+            ></img>
+            <div className=" bg-green-800  absolute bottom-2 right-0 h-3.5 w-3.5 rounded-full"></div>
+          </div>
+        </div>
+
+        {/* flex */}
+        <div className="bg-green-300 p-3 flex">
+          <div className="bg-red-300 relative">
+            <img
+              className="h-20 w-20 rounded-full"
+              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200"
+              alt="userImage1"
+            ></img>
+            <div className=" bg-green-800  absolute bottom-2 right-0 h-3.5 w-3.5 rounded-full"></div>
+          </div>
+        </div>
+        {/* flex +  justify-center */}
+        <div className="bg-green-300 p-3 flex justify-center">
+          <div className="bg-red-300 relative">
+            <img
+              className="h-20 w-20 rounded-full"
+              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200"
+              alt="userImage1"
+            ></img>
+            <div className=" bg-green-800  absolute bottom-2 right-0 h-3.5 w-3.5 rounded-full"></div>
+          </div>
+        </div>
       </div>
     </>
   );
