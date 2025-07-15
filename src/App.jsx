@@ -3,6 +3,7 @@ import Alert from "./Alert/Alert";
 import Flex from "./Flex/Flex";
 import Avatar from "./Avatar/Avatar";
 import Badge from "./Badge/Badge";
+import { Banner } from "./Banner/Banner";
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
       {/* <Alert /> */}
       {/* <Flex /> */}
       {/* <Avatar /> */}
-      <Badge />
+      {/* <Badge /> */}
+      <Banner />
     </div>
   );
 };

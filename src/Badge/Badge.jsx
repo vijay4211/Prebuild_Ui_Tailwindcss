@@ -271,6 +271,7 @@ const Badge = () => {
         {/* main */}
         <div className="flex items-center gap-2 border border-red-200 py-1 px-3 rounded-full bg-red-50">
           <div className="bg-red-500 size-1.5 rounded-full"></div>
+          {/* span or div */}
           <span>Cutting-edge technology</span>
         </div>
       </div>

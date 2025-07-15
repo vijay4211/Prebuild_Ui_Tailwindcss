@@ -59,6 +59,11 @@ import "./index.css";
    width = 6px and height = 6px
 
 
+# bg-gradient-to-r from-blue-400 via-indigo-500 to-purple-500
+
+# max-w-screen-xl mx-auto
+
+# bg-gradient-to-r from-violet-500 via-[#9938CA] to-[#E0724A]
 
 
 
