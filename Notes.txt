@@ -25,10 +25,22 @@ import "./index.css";
 
 #divide-x and divide-y
 
+# flex justify-center
+    flex  = child come side by side
+    justify-center = childs move horizontally center
 
 
+# flex justify-center 
+    flex  = child come side by side
+    justify-center = childs move horizontally center
 
 
+------------------$$$$$$$$$$$$$$$$$$$$-------------------
+#Note = 
+1. Relative madhe nahami Absolute cha use karayacha
+2. Relative ha parent aasto aani Absolute ha child aasto
+3. Parent(Relative) madhe child(child) aasto
+------------------$$$$$$$$$$$$$$$$$$$$-------------------
 
 
 
