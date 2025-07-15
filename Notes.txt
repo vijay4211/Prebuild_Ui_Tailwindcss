@@ -27,12 +27,17 @@ import "./index.css";
 
 # flex justify-center
     flex  = child come side by side
-    justify-center = childs move horizontally center
+    justify-center = horizontally center
 
 
 # flex justify-center 
     flex  = child come side by side
     justify-center = childs move horizontally center
+
+# flex items-center
+   flex = flex  = child come side by side
+   items-center = vertically center
+
 
 
 ------------------$$$$$$$$$$$$$$$$$$$$-------------------
@@ -42,12 +47,16 @@ import "./index.css";
 3. Parent(Relative) madhe child(child) aasto
 ------------------$$$$$$$$$$$$$$$$$$$$-------------------
 
+# bg-clip-text text-transparent
+
+# spam = jewad contain aahe tewadi width gheto
+# p -> span
+# a (Parent) -> span + p -> span
 
 
 
-
-
-
+# size-1.5
+   width = 6px and height = 6px
 
 
 
