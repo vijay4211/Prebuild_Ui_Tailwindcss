@@ -8,14 +8,22 @@ import "./index.css";
 
 //=============================
 # active:scale-95 transition
+# active:scale-90 transition-all
+# max-w-80 w-full =>> w-full = purn width gheto, max-w-80 = w-full la max-w-80 madhe convert karto
+# flex items-center justify-between =>>>
+   flex - child come side by side
+   items-center - child adjust vertically
+   justify-between - child adjust horizontally
 
 
+# flex flex-col justify-center
+   flex - child come side by side
+   flex-col - child show vertically
+   justify-center - vertically center
+   Note = flex-col aaslyamule justify-center ha vertically adjust hoto
 
 
-
-
-
-
+#divide-x and divide-y
 
 
 
