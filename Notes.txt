@@ -65,10 +65,14 @@ import "./index.css";
 
 # bg-gradient-to-r from-violet-500 via-[#9938CA] to-[#E0724A]
 
+# backdrop-blur-sm
 
 
-
-
+<img
+  class="rounded-md max-h-40 w-full object-cover"
+  src="https://images.unsplash.com/photo-1560264418-c4445382edbc?q=80&w=400"
+  alt="officeImage"
+></img>
 
 
 
