@@ -8,6 +8,7 @@ import Breadcrumbs from "./Breadcrumbs/Breadcrumbs";
 import Cart from "./Cart/Cart";
 import FlexBasis from "./Flex/FlexBasis";
 import FlexDirection from "./Flex/FlexDirection";
+import FlexWrap from "./Flex/FlexWrap";
 
 const App = () => {
   return (
@@ -22,7 +23,8 @@ const App = () => {
       {/* -----------------------Flex */}
       {/* <Flex /> */}
       {/* <FlexBasis /> */}
-      <FlexDirection />
+      {/* <FlexDirection /> */}
+      <FlexWrap />
     </div>
   );
 };
