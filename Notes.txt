@@ -76,6 +76,423 @@ import "./index.css";
 
 
 
+<img
+class="w-64 h-52 "
+src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=400"
+alt="userImage2"
+></img>
+
+
+------------------------$$$$$$$$$$$$$$$$$$$$$$$$$_------------------------
+# Same Result 
+
+ <div className="text-center">
+                <p className="font-medium mt-3">Kelvin John</p>
+                <p className="text-gray-500 text-sm">kelvin.john@gmail.com</p>
+                <button className="text-sm text-gray-500 border border-gray-500/30 w-28 h-8 rounded-full mt-5">
+                    <p className="mb-1">message</p>
+                </button>
+            </div>
+
+    ----OR----
+
+ <div className="flex flex-col items-center">
+                <p className="font-medium mt-3">Kelvin John</p>
+                <p className="text-gray-500 text-sm">kelvin.john@gmail.com</p>
+                <button className="text-sm text-gray-500 border border-gray-500/30 w-28 h-8 rounded-full mt-5">
+                    <p className="mb-1">message</p>
+                </button>
+            </div>
+
+------------------------------$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-----------------
+
+
+{/* flex + flex-col = by default childe will left side */}
+{/* flex + flex-col + justify-center = childe will left side */}
+{/* flex + flex-col + items-center = childe will center */}
+<div className="flex flex-col items-center">
+<p className="font-medium mt-3">Kelvin John</p>
+<p className="text-gray-500 text-sm">kelvin.john@gmail.com</p>
+<button className="text-sm text-gray-500 border border-gray-500/30 w-28 h-8 rounded-full mt-5">
+<p className="mb-1">message</p>
+</button>
+</div>
+
+# Note = flex + items-center = vertically center
+# Note = flex + flex-col + items-center = horizontally center
+
+------------------------------$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-----------------
+
+ {/* h-8 and w-28 alternative is padding px-5 py-0.5*/}
+
+<button className="text-sm text-gray-500 border border-gray-500/30 px-5 py-0.5 rounded-full mt-5 flex justify-center items-center gap-1">
+<p className="mb-1">message</p>
+</button>
+
+------------------------------$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-----------------
+
+<div class="bg-white p-1.5 rounded border border-gray-500/30">
+                  <img
+                    class="h-9"
+                    src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/dummyLogo/dummyFavicon.svg"
+                    alt="dummyFavicon"
+                  />
+# Note = always remember put image inside the div
+
+
+
+------------------------------$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$-----------------
+# flex flex-col items-center gap-2
+  # Note = flex + items-center = vertically center
+  # Note = flex + flex-col + items-center = horizontally center
+  # Note = flex + flex-col + items-center + gap-2 = horizontally center + vertically(gap-2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

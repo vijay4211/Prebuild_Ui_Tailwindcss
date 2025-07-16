@@ -1,0 +1,166 @@
+🧠 1. flex
+html:
+<div class="flex">...</div>
+
+
+Enables flexbox.
+
+Default direction: row → children go horizontally.
+
+Default alignment:
+
+justify-start (left)
+
+items-stretch (height fills)
+
+
+🔍 Output:
+| [Box1][Box2][Box3]   (Left aligned)
+
+
+🧠 2. flex justify-center
+html:
+<div class="flex justify-center">...</div>
+
+justify-center: Centers children horizontally.
+
+Used for aligning content in a row.
+
+
+🔍 Output:
+|     [Box1][Box2][Box3]     |
+
+
+
+🧠 3. flex items-center
+<div class="h-64 flex items-center">...</div>
+
+items-center: Centers children vertically inside the parent.
+You’ll only see the effect if the parent has height (h-*).
+
+
+🔍 Output:
+|                             |
+|                             |
+|        [Box1][Box2]         | ← vertically centered
+|                             |
+|                             |
+
+
+🧠 4. flex justify-center items-center
+<div class="h-64 flex justify-center items-center">...</div>
+Now, horizontal and vertical center both!
+
+🔍 Output:
+|                             |
+|                             |
+|         [Box1][Box2]        |
+|                             |
+|                             |
+
+
+✅ Visual Summary:
+| Class                              | What it does                                |
+| ---------------------------------- | ------------------------------------------- |
+| `flex`                             | Enables flex layout (default row direction) |
+| `justify-center`                   | Horizontally centers content                |
+| `items-center`                     | Vertically centers content                  |
+| `flex justify-center items-center` | Fully centers content both ways             |
+
+
+
+🧪 Example:
+<div class="h-64 bg-gray-100 flex justify-center items-center">
+  <div class="bg-blue-500 text-white px-4 py-2 rounded">
+    Centered Box
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
